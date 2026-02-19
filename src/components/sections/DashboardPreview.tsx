@@ -20,7 +20,7 @@ export default function DashboardPreview() {
   const [activeTab, setActiveTab] = useState("overview");
 
   return (
-    <section className="relative py-32 bg-linear-to-b from-[#08090a] via-[#333437] to-[#252628]">
+    <section className="relative py-40 bg-linear-to-b from-[#08090a] via-[#333437] to-[#252628] ">
       <div className="max-w-7xl mx-auto px-6">
         <h2 className="text-4xl font-semibold text-center text-white mb-20">
           Intelligence Dashboard Preview

@@ -29,7 +29,10 @@ export default function InsightFlow() {
   const lineScale = useTransform(scrollYProgress, [0, 1], [0, 1]);
 
   return (
-    <section ref={containerRef} className="relative h-[300vh] bg-[#0a0a0a]">
+    <section
+      ref={containerRef}
+      className="relative h-[300vh] bg-linear-to-b from-[#0a0a0a] to-[#08090a]"
+    >
       <div className="sticky top-0 h-screen flex items-center justify-center">
         <div className="relative w-full max-w-5xl px-12">
           <div className="absolute left-6 top-0 h-full w-[2px] bg-white/10">
